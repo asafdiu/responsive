@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2</title>
+    <style>
+        .food{
+            display: flex;
+            gap: 10px;
+        }
+        .image{
+            width: 40%;
+            height: 40%;
+        }
+        .image img{
+            width: 100%;
+            height: 100%;
+        }
+        .text{
+            width: 60%;
+            height: 60%;
+        }
+        button{
+            background-color: rgb(135, 135, 219);
+            border: 0;
+            color: aliceblue;
+        }
+        @media screen and (max-width:576px) {
+
+            .food{
+                display: block;
+                padding-bottom: 10px;
+            }
+            .image{
+                width: 100%;
+                height: 100%;
+            }
+            .text{
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="food">
+            <div class="image">
+                <img src="images/food1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Post Title Will be here</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit minima nulla asperiores reiciendis! Eveniet tempora nisi voluptate soluta, architecto obcaecati quisquam aperiam a ipsam necessitatibus qui odit facere debitis sapiente!</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image">
+                <img src="images/food2.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Post Title Will be here</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit minima nulla asperiores reiciendis! Eveniet tempora nisi voluptate soluta, architecto obcaecati quisquam aperiam a ipsam necessitatibus qui odit facere debitis sapiente!</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

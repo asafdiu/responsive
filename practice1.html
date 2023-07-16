@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice One</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+
+
+        }
+
+        .container div {
+            margin: 10px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .left {
+            background-color: aliceblue;
+            height: 600px;
+            width: 40%;
+        }
+
+        .right {
+            background-color: bisque;
+            height: 600px;
+            width: 60%;
+        }
+
+        @media screen and (max-width: 576px) {
+            body {
+                overflow-x: hidden;
+            }
+
+            .container {
+                margin: 15px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                flex-direction: column;
+
+            }
+
+            .container div {
+                width: 100%;
+            }
+
+            .left {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h3>LEFT</h3>
+
+        </div>
+        <div class="right">
+            <h3>RIGHT</h3>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

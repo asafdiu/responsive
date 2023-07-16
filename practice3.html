@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 3</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .city-div1 {
+
+            display: flex;
+        }
+
+        .city-div1 div {
+
+            width: 50%;
+        }
+
+        .city-div1 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .div-text {
+            padding: 20px;
+            /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(96, 124, 161)); */
+            box-sizing: border-box;
+            text-align: justify;
+        }
+
+        .city-div2 {
+            display: flex;
+        }
+
+        .city-div2 div {
+            width: 50%;
+        }
+
+        .city-div2 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media screen and (max-width:576px) {
+            .city-div1 {
+                display: block;
+            }
+
+            .city-div2 {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            .city-div1 div {
+
+                width: 100%;
+            
+            }
+
+            .city-div2 div {
+                width: 100%;
+          
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="city-div1">
+            <div>
+                <img src="images/city1.jpeg" alt="">
+            </div>
+            <div class="div-text">
+                <h2>Why do we use it?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laboriosam, ducimus dolore debitis
+                    impedit veritatis ipsa magnam, illo enim ad quisquam? Mollitia incidunt fuga rem inventore
+                    praesentium, velit provident commodi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas tenetur voluptatibus
+                    vitae cupiditate cumque architecto voluptate sunt atque id, minima, unde beatae aut, eum corporis
+                    fuga iste magni a.</p>
+            </div>
+        </div>
+        <div class="city-div2">
+
+            <div class="div-text">
+                <h2>Why do we use it?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laboriosam, ducimus dolore debitis
+                    impedit veritatis ipsa magnam, illo enim ad quisquam? Mollitia incidunt fuga rem inventore
+                    praesentium, velit provident commodi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas tenetur voluptatibus
+                    vitae cupiditate cumque architecto voluptate sunt atque id, minima, unde beatae aut, eum corporis
+                    fuga iste magni a.</p>
+            </div>
+            <div>
+                <img src="images/city2.jpeg" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
